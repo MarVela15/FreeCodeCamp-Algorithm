@@ -17,7 +17,7 @@ function updateInventory(arr1, arr2) {
       arr1.push(arr2[i]);
     }
     }
-  //Ordenar por nombre de producto
+  //Ordena por nombre de producto
   arr1.sort((a, b) => {
    const name1 = a[1];
    const name2 = b[1];

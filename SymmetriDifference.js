@@ -1,5 +1,5 @@
 function sym(...args) {
-    // Combina todos los conjuntos en uno solo
+    // Combina todos los conjuntos en uno Solo
     const combinedSet = new Set([].concat(...args));
   
     // Filtra los elementos que no están duplicados en el conjunto
